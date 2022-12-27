@@ -37,7 +37,7 @@ class complex{
     complex operator* (complex c){
         complex temp;
         temp.real=(real*c.real)-(img*c.img);
-        temp.img=(img*c.img)+(real*c.real);
+        temp.img=(img*c.real)+(real*c.img);
         return temp;
     }
 };
